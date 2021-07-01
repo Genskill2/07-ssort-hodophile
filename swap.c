@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<cs50.h>
 void swap_max(int arr[],int n,int l){
   int largest = -99999,pos,temp;
   /*for(int i=0;i<l;i++){
