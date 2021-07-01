@@ -15,13 +15,11 @@ void swap_max(int arr[],int n,int l){
   temp = arr[n];
   arr[n] = largest;
   arr[pos] = temp;
-  return arr;
 }
 
 void ssort(int arr[],int l){
   for(int i=0;i<l;i++){
     swap_max(arr,i,l);
-    return arr;
   }
   /* for(int i=0;i<l;i++){
     printf("%i\t",arr[i]);
